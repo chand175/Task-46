@@ -11,50 +11,102 @@ body{
 .parent{
      display: grid;
 grid-template-columns: repeat(3,1fr);
-height: 400px;
-gap: 2px;
-grid-template-areas: "box1 box2 box3"
-                     "box4 box5 box6"
-                     "box7 box8 box9";
+height: 500
+
+
+
+px;
+gap: 10px;
+grid-template-areas: "box1 box2 box3 box4"
+                     "box1 box5 box6 box4"
+                     "box1 box7 box8 box9";
 
 }
 
-.box2 ,.box4, .box6, .box8{
+/* .box2,.box4{
     background-color: blue;
 }
 
-.box1, .box3, .box5, .box7, .box9{
-    background-color: blueviolet;
-}
+.box1, .box3, .bo {
+    background-color:pink;
+} */
 .box1{
     grid-area: box1;
+    background-color: blue;
+    background-image: url(pic1.jpg);
+   
+   background-size: cover;
+    border-radius: 10px;
 }
 
 .box2{
     grid-area: box2;
-   
+    background-color: blue;
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
+
 
 .box3{
     grid-area: box3;
+    background-color: blue;
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
+
 .box4{
     grid-area: box4;
+    background-color: blue;
+    background-image: url(pic4.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
+
 .box5{
     grid-area: box5;
+    background-color: blue;
+    background-image: url(pic5.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
+
 .box6{
     grid-area: box6;
+    background-color: blue;
+    background-image: url(pic6.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
+
 .box7{
     grid-area: box7;
+    background-color: blue;
+    background-image: url(pic7.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
+
 .box8{
     grid-area: box8;
+    background-color: blue;
+    background-image: url(pic8.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
-.box9
 
+.box9 {
+    grid-area: box9;
+    background-color: blue;
+    background-image: url(pic9.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box10{
+    
+}
 
 
 
